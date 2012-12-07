@@ -1,0 +1,2 @@
+$: << '.'
+require 'cleanthor/thor/tasks'

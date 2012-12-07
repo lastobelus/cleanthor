@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "cleanthor/thor/runner"
+$thor_runner = true
+$cleanthor_runner = true
+Cleanthor::Thor::Runner.start
