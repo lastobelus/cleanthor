@@ -1,6 +1,12 @@
 module Cleanthor
   module Thor
     class Task < ::Thor
+
+      def invoke(name=nil, *args)
+        name.sub!(/^cleanthor:/, '') if name && $cleanthor_runner
+        super
+      end
+      
       class << self
         def inherited(base) #:nodoc:
           base.send :extend,  ClassMethods

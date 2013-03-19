@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Cleanthor::VERSION
   gem.authors       = ["Michael Johnston"]
   gem.email         = ["lastobelus@mac.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Example of setting up thor with clean namespaces}
+  gem.summary       = %q{Example of setting up thor with clean namespaces}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
